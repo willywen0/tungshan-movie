@@ -11,7 +11,6 @@ const App = () => {
             <MovieProvider>
                 <Navbar />
                 <Routes>
-                    <Route path="/" element={<HomePage />} />
                     <Route path="/home" element={<HomePage />} />
                     <Route path="/favorites" element={<FavoritesPage />} />
                     <Route path="/search-results" element={<SearchResultsPage />} />
