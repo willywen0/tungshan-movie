@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <div className="navbar max-w-6xl mx-auto">
             <div className="flex-1">
-                <Link to={'/'}>
+                <Link to={'/home'}>
                     <h1 className="text-2xl font-semibold btn btn-ghost">Movie App</h1>
                 </Link>
             </div>
